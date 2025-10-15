@@ -12,13 +12,13 @@
   </style>
 </head>
 <body>
-  <H1 style="text-decoration: underline solid greenyellow;">My Block</H1>
+  <H1 style="text-decoration: underline solid greenyellow;">My Blog</H1>
   <div class="Kotak_Pertama">
     <form action="proses.ph" method="post">
       <fieldset>
       <legend>Formulir Pendaftaran Online</legend>
       <label for="nama">Nama :</label>
-      <input type="text" id="nama" name="nama" placeholder="Masukkan Nama Lengkap"><br><br>
+      <input type="text" id="nama" name="nama" placeholder="Masukkan Nama Lengkap" required><br><br>
       
       <label for="umur">Umur :</label>
       <input type="date" id="umur" name="umur" placeholder="Masukkan Umur"><br><br>
@@ -47,6 +47,9 @@
       <input type="checkbox" id="berenang" name="hobi" value="berenang">
       <label for="berenang">berenang</label>
 
+      <input type="checkbox" id=" Memasak" name="hobi" value="memasak">
+      <label for="berenang">Memasak</label><br><br>
+
       <label for="kota">Pilih Kota :</label>
       <select id="kota" name="kota">
         <option>Samarinda</option>
@@ -55,6 +58,10 @@
         <option>Jakarta</option>
         <option>Bandung</option>
       </select><br><br>
+
+      <label for="comment">Komentar :</label>
+      <textarea id="comment" rows="5" cols="10" placeholder="Opsional">
+
       <input type="reset" value="reset"> &nbsp;
       <input type="submit" value="Kirim">
       </fieldset>
