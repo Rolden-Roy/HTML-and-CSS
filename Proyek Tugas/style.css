@@ -1,0 +1,165 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+header, nav, footer {
+  background-color: #1e1e1e;
+  color: #f0f0f0;
+  padding: 15px;
+  text-align: center;
+}
+
+nav a {
+  color: #90caf9;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 20px auto;
+  background-color: #1b1b1b;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  display: block;
+  margin: 10px 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+table, th, td {
+  border: 1px solid #444;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+input, textarea, select, button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #1976d2;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1565c0;
+}
+
+ul, ol {
+  margin: 10px 0 10px 20px;
+}
+
+
+.container-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.column {
+  flex: 1 1 300px;
+  background-color: #222;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+
+@media (max-width: 900px) {
+  header, nav, footer {
+    padding: 10px;
+  }
+
+  body {
+    font-size: 15px;
+  }
+
+  .container {
+    width: 95%;
+    padding: 15px;
+  }
+
+  nav a {
+    display: inline-block;
+    margin: 5px;
+  }
+}
+
+@media (max-width: 600px) {
+  .container-flex {
+    flex-direction: column;
+  }
+
+  .column {
+    width: 100%;
+  }
+
+  body {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  img {
+    margin: 5px 0;
+  }
+}
+
+
+.profile {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+}
+
+.profile img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.profile-info {
+  flex: 1;
+}
+
+.profile-info h2 {
+  margin-top: 0;
+  color: #90caf9;
+}

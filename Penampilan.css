@@ -1,0 +1,26 @@
+body {
+    background-color : bl;
+    font-family : Arial, Helvetica, sans-serif;
+}
+
+p {
+    justify-content : center;
+    line-height : 1 ;
+    font-weight : bold
+}
+.container {
+  display: flex;
+  justify-content : center;
+  gap : 20px
+}
+                
+img {
+    width : 500 auto ;
+    height : 250 auto ;
+}
+
+.kotak {
+    background-color : aqua ;
+    border : 5px solid blue;
+    padding : 25px;
+}

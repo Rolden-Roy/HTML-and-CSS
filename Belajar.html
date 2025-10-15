@@ -1,0 +1,65 @@
+<!Doctype html>
+
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale= 1.0">
+  <title>My First Study Website</title>
+  <style>
+    body {margin: 0px; padding: 0px;}
+    .Kotak_Pertama {margin: auto; padding: 5px; border: 5px outset gray; background-color: darksalmon; 
+      width: 500px; height: 500px; box-shadow: 10px 10px 5px 3px goldenrod, -10px -10px 5px 3px gold; }
+  </style>
+</head>
+<body>
+  <H1 style="text-decoration: underline solid green;">My Block</H1>
+  <div class="Kotak_Pertama">
+    <form action="proses.ph" method="post">
+      <fieldset>
+      <legend>Formulir Pendaftaran Online</legend>
+      <label for="nama">Nama :</label>
+      <input type="text" id="nama" name="nama" placeholder="Masukkan Nama Lengkap"><br><br>
+      
+      <label for="umur">Umur :</label>
+      <input type="date" id="umur" name="umur" placeholder="Masukkan Umur"><br><br>
+
+      <label>Pilih Makanan Favorit :</label><br>
+      <input type="radio" id="nasgor" name="makanan favorit" value="Nasi Goreng">
+      <label for="nasgor">Nasi Goreng</label>
+
+      <input type="radio" id="ayam" name="makanan favorit" value="Ayam Bakar">
+      <label for="ayam">Ayam Bakar</label>
+
+      <input type="radio" id="sate" name="makanan favorit" value="Sate">
+      <label for="sate">Sate</label>
+
+      <input type="radio" id="ice" name="makanan favorit" value="Ice Cream">
+      <label for="ice">Ice Cream</label><br><br>
+
+      <label>Masukkan Hobi :</label><br>
+      <input type="checkbox" id="membaca" name="hobi" value="membaca">
+      <label for="membaca">Membaca</label>
+
+      <input type="checkbox" id="bernyanyi" name="hobi" value="bernyanyi">
+      <label for="bernyanyi">bernyanyi</label>
+
+        
+      <input type="checkbox" id="berenang" name="hobi" value="berenang">
+      <label for="berenang">berenang</label>
+
+      <label for="kota">Pilih Kota :</label>
+      <select id="kota" name="kota">
+        <option>Samarinda</option>
+        <option>Sangatta</option>
+        <option>Balikpapan</option>
+        <option>Jakarta</option>
+        <option>Bandung</option>
+      </select><br><br>
+      <input type="reset" value="reset"> &nbsp;
+      <input type="submit" value="Kirim">
+      </fieldset>
+    </form>
+
+  </div>
+</body>
+</html>
